@@ -78,7 +78,7 @@ def harvest_crop_field(field):
 
 def remove_animal_field(field):
     display_animals(field._animals)
-    selected_animal = select_animal(len(field.animals))
+    selected_animal = select_animal(len(field._animals))
     return field.remove.animal_field(selected_animal)
 
 
